@@ -129,10 +129,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-title {
-  font-family: 'Orbitron', sans-serif;
-  font-size: clamp(1.8rem, 4vw, 2.8rem);
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  letter-spacing: 0.5px;
   color: var(--text-primary);
   margin-bottom: 16px;
 }
@@ -203,8 +202,7 @@ h1, h2, h3, h4, h5, h6 {
   border: none;
   cursor: pointer;
   transition: var(--transition);
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
 }
 
 .btn-primary {
@@ -297,12 +295,11 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   gap: 12px;
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: var(--text-primary);
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
 }
 
 .nav-logo-icon {
@@ -337,8 +334,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: var(--radius-sm);
   color: var(--text-secondary);
   position: relative;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.3px;
 }
 
 .nav-link::after {
@@ -475,12 +471,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-title {
-  font-family: 'Orbitron', sans-serif;
-  font-size: clamp(2rem, 5.5vw, 3.5rem);
-  font-weight: 900;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: clamp(2.2rem, 5.5vw, 3.8rem);
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 3px;
-  line-height: 1.2;
+  letter-spacing: 1px;
+  line-height: 1.15;
   margin-bottom: 24px;
   color: #FFFFFF;
 }
@@ -602,8 +598,7 @@ h1, h2, h3, h4, h5, h6 {
 .stat-label {
   font-size: 0.9rem;
   color: rgba(255,255,255,0.6);
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.3px;
   margin-top: 8px;
 }
 
@@ -639,6 +634,12 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   position: relative;
   overflow: hidden;
+}
+
+.product-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .product-card-image i {
@@ -790,8 +791,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .industry-card h4 {
   font-size: 0.95rem;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.3px;
 }
 
 /* ========================================
@@ -833,10 +833,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .cta-content h2 {
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
   font-size: clamp(1.5rem, 3vw, 2.2rem);
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 0.5px;
   margin-bottom: 16px;
 }
 
@@ -903,8 +902,8 @@ h1, h2, h3, h4, h5, h6 {
 .footer-heading {
   font-family: 'Rajdhani', sans-serif;
   font-size: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
   margin-bottom: 20px;
   color: #FFFFFF;
 }
@@ -1004,10 +1003,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .page-header h1 {
-  font-family: 'Orbitron', sans-serif;
-  font-size: clamp(1.8rem, 4vw, 3rem);
-  text-transform: uppercase;
-  letter-spacing: 3px;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+  letter-spacing: 0.5px;
   margin-bottom: 16px;
   color: #FFFFFF;
 }
@@ -1071,6 +1069,12 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 
+.product-image-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .product-image-placeholder i {
   font-size: 4rem;
   color: var(--accent-red);
@@ -1078,10 +1082,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .product-info h2 {
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 1.8rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   margin-bottom: 16px;
   background: var(--gradient-primary);
   -webkit-background-clip: text;
@@ -1259,11 +1262,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about-story-text h2 {
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 2rem;
   margin-bottom: 20px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
 }
 
 .about-story-text p {
@@ -1322,8 +1324,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .value-card h4 {
   font-size: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.3px;
 }
 
 /* Leadership Card */
@@ -1677,8 +1678,7 @@ h1, h2, h3, h4, h5, h6 {
 .process-step h3 {
   font-size: 1.05rem;
   margin-bottom: 8px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.3px;
 }
 
 .process-step p {
@@ -1786,6 +1786,14 @@ h1, h2, h3, h4, h5, h6 {
     rgba(0,0,0,0.02) 20px,
     rgba(0,0,0,0.02) 40px
   );
+}
+
+.gallery-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
 }
 
 .gallery-placeholder i {
